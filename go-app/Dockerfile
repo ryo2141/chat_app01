@@ -1,4 +1,4 @@
 FROM golang:latest
-WORKDIR /app/go
+WORKDIR /chat_app01/go-app
 COPY ./ ./
 ENTRYPOINT [ "go", "run", "main.go" ]
